@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    
+    border: 5px solid green;
+    /*background-color: lawngreen;*/
+    background: url(../image/images/20231020_umt1.jpg) center center no-repeat;
+    background-size: cover;
+    /*border-collapse: collapse;*/
+    /*border-collapse: separate;
+    border-spacing: 30px 50px;*/
+    empty-cells: hide;
+}
+tr.odd{
+    background-color: lightgreen;
+    color: brown;
+    
+}
+tr.even{
+    background-color: lightgoldenrodyellow;
+    color: goldenrod;
+}
+td.space{
+    width: 300px;
+}
+
+td{
+    text-align: center;
+    font-size: 30px;
+    border: 1px none teal;
+    background: url(../image/images/20231020_umt1.jpg) center top no-repeat;
+    background-size: 20px 20px;
+}
+div.container{
+    height: 80px;
+    width: 80px;
+    border: 1px solid red;
+}
+.container img{
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,28 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table, th, td{
+    border-collapse: separate;
+}
+table{
+    border: 3px solid black;
+    text-align: center;
+}
+tr.red{
+    background-color: salmon;
+    color: aliceblue;
+}
+tr.odd{
+    background-color: white;
+}
+tr.even{
+    background-color: goldenrod;
+}
+.container img{
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+}
+td{
+    border: 2px none;
+}

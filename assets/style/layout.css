@@ -1,0 +1,81 @@
+.float-left{
+    float: left;
+}
+.float-right{
+    float:right
+}
+.float-none{
+    float: none;
+}
+
+.clear-left{
+    clear: left;
+}
+.clear-right{
+    clear: right;
+}
+.clear-both{
+    clear: both;
+}
+.clear-none{
+    clear: none;
+}
+
+.position div{
+    background-color: thistle;
+    margin-bottom: 25px;
+    height: 100px;
+}
+/*
+positional properties => top, left, bottom, right
+
+positional properties and z-index WILL NOT work if position is set to STATIC.
+*/
+.position-static{
+    position: static;
+    left: 50%; /* will not work. See line 30*/
+}
+.position-relative{
+    position: relative;
+    left: -50%;
+}
+.position-absolute{
+    position: absolute;
+    background-color: yellowgreen !important;
+    right: 0;
+    top: 250px;
+
+}
+.position-fixed{
+    position: fixed;
+    background-color: darkred !important;
+    top: 0;
+    left: 10%;
+}
+
+/* 
+    NOTE:
+    block elements => you CAN set the WIDTH, HEIGHT, MARGIN, on all sides.
+    inline elements => you CANNOT set the WIDTH, HEIGHT, MARGIN-TOP and MARGIN-BOTTOM
+*/
+
+.display-inline{
+    display: inline; /*element will behave like an inline element*/
+    height: 100px; /*will not work. See the line 59*/
+    margin-top: 10px;/*will not work. See the line 59*/
+}
+.display-block{
+    display: block; /*element will behave like a block element*/
+    height: 50px; /*WILL WORK. see line58*/
+    margin: 20px; /*WILL WORK. see line58*/
+
+}
+.display-inline-block{
+    display: inline-block; /* behave like an inline element but with block properties*/
+    height: 50px;
+    margin-top: 10px;
+
+}
+.display-none{
+    display: none; /*hide the element*/
+}

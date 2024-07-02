@@ -1,0 +1,37 @@
+/* CSS Selectors */
+
+/* Universal Selector */
+*{
+    color: blueviolet;
+}
+
+/* Element Selector */
+body {
+    background-color: burlywood;
+}
+
+h1{
+    background-color: aqua;
+}
+
+/* CLASS Selector ->need to add . first*/
+.introduction{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+/* ID Selector */
+#content {
+    background-color: chocolate;
+    color: white;
+}
+
+
+/* CSS RULES -> the last selector is the proproty*/
+h1 {
+    color: crimson;
+}
+
+h1 {
+    color: cornflowerblue;
+}

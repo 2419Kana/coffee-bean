@@ -1,0 +1,54 @@
+/*必ずこれを加える*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: teal;
+    background-color: lightgoldenrodyellow;
+}
+p{
+    width: 300px;
+    padding: 20px 30px;
+    margin: 20px auto;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.solid{
+    border-left: 3px solid tomato;
+}
+.dotted{
+    border-top: 3px navy;
+}
+.dashed{
+    border-right: 1px dashed olive;
+}
+.double{
+    border-bottom: 3px double orangered;
+}
+.groove{
+    border: 3px groove purple;
+}
+.ridge{
+    border: 3px ridge lawngreen;
+}
+.inset{
+    border: 3px inset indianred;
+}
+.outset{
+    border: 3px outset peru;
+}
+.radius{
+    border: 3px solid maroon;
+    border-radius: 15px 0 15px 0;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}

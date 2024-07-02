@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scroll, .hidden{
+    height: 100px;
+    width: 100px;
+    margin: 10% 10% 0 10%;
+    border: 3px solid grey;
+}
+.scroll{
+    background-color: paleturquoise;
+    overflow: scroll;
+    box-shadow: 3px 3px 3px 3px darkcyan;
+    border-radius: 30px 30px 0 0;
+}
+.hidden{
+    background-color: lightgreen;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 3px 3px 3px 3px darkgreen;
+    border-radius: 30px 30px 0 0;
+}

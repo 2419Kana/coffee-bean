@@ -1,0 +1,27 @@
+/* container */
+div{
+    height:500px;
+    width: 100%;
+}
+
+.div1{
+    background-image: url(../images/20231020_umt1.jpg);
+    /* image size */
+    /*background-size: cover;*/
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.div2{
+    background-image: url(../images/20231008_bac\ lieu\ corn.jpg);
+    background-size: 200px 200px;
+    background-repeat: repeat;
+    background-position: center center;
+    background-color: lightblue;
+}
+/* shorthand */
+.div3{
+    /* cannot have background-size*/
+    background: no-repeat center center navy url(../images/20240212_vuong\ bac\ 4.jpg) scroll;
+    background-size: 200px 200px;
+}

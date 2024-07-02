@@ -1,0 +1,21 @@
+/*.box{
+    position: relative;
+    background-color: wheat;
+}*/
+
+.box-1{
+    width: 100px;
+    height: 100px;
+    background: salmon;
+    position: absolute;
+    z-index: 2; /* limit -999~999 */
+}
+
+.box-2{
+    width: 100px;
+    height: 100px;
+    background: teal;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
